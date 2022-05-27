@@ -13,3 +13,25 @@
 </androidx.recyclerview.widget.RecyclerView>
 
 ```
+
+/res/layout/normal_item.xml :
+
+```xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+        android:id="@+id/normal_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Recycler View Item"
+        android:textStyle="bold"/>
+
+</com.google.android.material.card.MaterialCardView>
+
+```
